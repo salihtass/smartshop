@@ -1,0 +1,46 @@
+import { MetadataRoute } from 'next';
+
+export default function manifest(): MetadataRoute.Manifest {
+  return {
+    name: 'SpendSmart',
+    short_name: 'SpendSmart',
+    description: 'Track your spending, scan receipts, and find the best deals',
+    start_url: '/',
+    display: 'standalone',
+    background_color: '#ffffff',
+    theme_color: '#3B82F6',
+    orientation: 'portrait',
+    icons: [
+      {
+        src: '/icons/android/icon-mdpi.png',
+        sizes: '48x48',
+        type: 'image/png'
+      },
+      {
+        src: '/icons/android/icon-hdpi.png',
+        sizes: '72x72',
+        type: 'image/png'
+      },
+      {
+        src: '/icons/android/icon-xhdpi.png',
+        sizes: '96x96',
+        type: 'image/png'
+      },
+      {
+        src: '/icons/android/icon-xxhdpi.png',
+        sizes: '144x144',
+        type: 'image/png'
+      },
+      {
+        src: '/icons/android/icon-xxxhdpi.png',
+        sizes: '192x192',
+        type: 'image/png'
+      },
+      {
+        src: '/icons/android/icon-playstore.png',
+        sizes: '512x512',
+        type: 'image/png'
+      }
+    ]
+  };
+}

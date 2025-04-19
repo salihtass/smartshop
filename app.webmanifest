@@ -1,0 +1,50 @@
+{
+  "name": "SpendSmart",
+  "version": "1.0.0",
+  "private": true,
+  "displayName": "SpendSmart",
+  "description": "Track your spending, scan receipts, and find the best deals",
+  "themeColor": "#3B82F6",
+  "backgroundColor": "#ffffff",
+  "shortcuts": [
+    {
+      "name": "Scan Receipt",
+      "short_name": "Scan",
+      "description": "Scan a receipt to track your spending",
+      "url": "/receipt-scanner",
+      "icons": [{ "src": "/icons/android/icon-xxhdpi.png", "sizes": "144x144" }]
+    },
+    {
+      "name": "View Offers",
+      "short_name": "Offers",
+      "description": "View current discounts and offers",
+      "url": "/offers",
+      "icons": [{ "src": "/icons/android/icon-xxhdpi.png", "sizes": "144x144" }]
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.spendsmart.app",
+      "id": "com.spendsmart.app"
+    }
+  ],
+  "prefer_related_applications": true,
+  "categories": ["finance", "shopping", "utilities"],
+  "screenshots": [
+    {
+      "src": "/screenshots/home.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "platform": "android",
+      "label": "Home Screen"
+    },
+    {
+      "src": "/screenshots/offers.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "platform": "android",
+      "label": "Offers Screen"
+    }
+  ]
+}
